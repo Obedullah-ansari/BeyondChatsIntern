@@ -16,7 +16,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import Message from "./Message";
-import { text } from "framer-motion/client";
+
 
 interface ChatMessage {
   sender: "user" | "bot";
@@ -25,7 +25,7 @@ interface ChatMessage {
 }
 
 const ChatView = () => {
-  const { composer,handelComposerChange } = useContextValue();
+  const { composer } = useContextValue();
   const [message, setMessage] = useState("");
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([]);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
