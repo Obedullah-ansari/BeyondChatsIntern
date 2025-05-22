@@ -1,0 +1,30 @@
+
+@import "tailwindcss";
+
+
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+textarea::placeholder {
+  font-size: 0.8rem; 
+}
+
+.nav-icon {
+  @apply p-2 text-black hover:bg-gray-100 rounded-md cursor-pointer transition-all;
+}
+
