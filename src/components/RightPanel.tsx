@@ -9,7 +9,7 @@ import { X } from "lucide-react";
 
 
 // ⛔️ Do NOT expose this in production
-const API_KEY = "AIzaSyDwXgK1Jtzkrg550HkWT0hCuXaE8AnvrWg"; // Replace with your actual API key
+const API_KEY = import.meta.env.VITE_APP_GEMINI_API_KEY // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 interface SourceItemProps {

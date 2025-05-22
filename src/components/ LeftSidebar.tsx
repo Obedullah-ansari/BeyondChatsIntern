@@ -8,7 +8,6 @@ import {
   User,
   BookOpen,
   Grip,
-  X,
   Send,
   Menu,
 } from "lucide-react";
