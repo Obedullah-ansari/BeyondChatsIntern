@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+# 💼 Fin Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive UI replica of **Fin by Intercom**, created as part of an internship task at **Beyond Chats**. This project focuses on replicating the visual design and functionality of Fin using modern frontend tools and generative AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React**
+- 📘 **TypeScript**
+- 🎨 **Tailwind CSS**
+- 🤖 **Generative AI (Gemini)**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🎯 Objective
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The goal was to **replicate the UI of Fin** as accurately as possible using the provided reference video. To refine the replica, I also reviewed the official **Intercom** website to observe Fin's layout, styling, and functionality.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Dummy responses are powered by **Gemini AI**, acting like Fin to simulate realistic interactions.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📱 Responsive Design
+
+The UI is optimized for:
+
+- ✅ Desktop
+- ✅ Tablet
+- ✅ Mobile
+
+All layouts and components adjust seamlessly across various screen sizes to ensure the best user experience.
+
+---
+
+## 🤖 Gemini AI Integration
+
+To simulate Fin’s chat behavior, this project uses **Google Gemini** to generate dynamic, intelligent responses to user input. It mimics conversational patterns and provides natural replies for better UX during demo.
+
+---
+
+## 🎥 Demo Video
+
+📺 **[Click here to watch the demo video](https://res.cloudinary.com/ddcxguovf/video/upload/v1747905677/demo_fnz7ph.mov)**  
+> Replace this link with your uploaded demo on YouTube or Google Drive.
+
+---
+
+## 📦 How to Clone and Run the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/fin-replica.git
+
+# Navigate to the project directory
+cd fin-replica
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
