@@ -3,6 +3,8 @@
 A responsive UI replica of **Fin by Intercom**, created as part of an internship task at **Beyond Chats**. This project focuses on replicating the visual design and functionality of Fin using modern frontend tools and generative AI.
 
 ---
+## 🌐 Live preview 
+[click here to see the live preview](https://beyond-chats-intern-64ft.vercel.app/)
 
 ## 🚀 Tech Stack
 
